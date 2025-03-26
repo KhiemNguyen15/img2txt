@@ -1,0 +1,10 @@
+[project]
+name = "img2txt"
+version = "0.1.0"
+description = "A simple CLI tool for reading text from images"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["click>=8.1.8", "pillow>=11.1.0", "pytesseract>=0.3.13"]
+
+[dependency-groups]
+dev = ["pyinstaller>=6.12.0"]
